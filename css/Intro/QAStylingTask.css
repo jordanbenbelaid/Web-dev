@@ -1,0 +1,32 @@
+em {
+    color:#0094ff;
+}
+
+/* Descendent combinator: more specific */
+p em{
+  color:#ff0000;
+}
+
+/* Direct child */
+body > footer {
+    color:#00ff21;
+}
+
+/* Adjacent-sibling combinator  */
+h1 + p{
+   color:#4800ff;
+}
+
+/* all siblings  */
+h1 ~ p {
+   background-color:#808080;
+}
+
+/* p:hover -- pseduo class  */
+p.hover:hover{
+   background-color:#ffd800;
+}
+
+#transform{
+    transform: translate(100px, 250px) rotateY(180deg) skew(-25deg, 20deg); 
+}

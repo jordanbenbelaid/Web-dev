@@ -1,0 +1,85 @@
+#heading{
+    font-size: 40px;
+}
+
+#text{
+    font-size: 25px;
+}
+
+div{
+    text-align: center;
+    color: blue;
+}
+
+a{
+    color: black;
+}
+
+/* a:hover{
+    color:blue !important;
+    font-size: 30px;
+}
+a:active{
+    color: blueviolet !important;
+}
+a:visited{
+    color: darkgreen;
+} */
+
+
+/* Starts with */
+a[href^="https"]{
+    color: black;
+}
+
+/* Ends with  */
+a[href$="https"]{
+    color: black;
+} */ 
+
+
+/* Contains */
+a[href*="www"]{
+    color: black;
+}
+
+
+.overflow1{
+    width: 200px;
+    height: 50px; 
+    background-color: #eee;
+    border: 1px dotted black;
+    overflow: visible;
+    margin:30px;
+    padding: 10px;
+}
+
+.overflow2{
+    width: 200px;
+    height: 50px; 
+    background-color: #eee;
+    border: 1px dotted black;
+    overflow: hidden;
+    margin:30px;
+    padding: 10px;
+}
+
+.overflow3{
+    width: 200px;
+    height: 50px; 
+    background-color: #eee;
+    border: 1px dotted black;
+    overflow: scroll;
+    margin:30px;
+    padding: 10px;
+}
+
+.overflow4{
+    width: 200px;
+    height: 50px; 
+    background-color: #eee;
+    border: 1px dotted black;
+    overflow: auto;
+    margin:30px;
+    padding: 10px;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <!-- Action - Used where data is sent-->
+    <!-- Method - How the information is passed-->
+    <!-- Get - data apssed to URL or request-->
+    <!-- Post - information in the message/body of the request-->
+    <form style="text-align: center;" method="POST" action="">
+
+        <fieldset>
+            <legend>Caption</legend>
+
+            <label>Enter your username</label>
+            <input type="text" name="userName" placeholder="eg. jBenbelaid">
+            <br>
+
+            <label>Enter your password</label>
+            <input type="text" name="passWord" placeholder="Enter password">
+            <br>
+
+            <label>Enter your email</label>
+            <input type="text" name="email" placeholder="eg. someone@gmail.com">
+            <br>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <button type="submit">
+                Send data
+            </button>
+            <button type="reset">
+                Reset
+            </button>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <lable>Select which hand you use most:</lable>
+            <br>
+            <input type="radio" id="LeftHand" name="hand">Left Hand</input>
+            <br>
+            <input type="radio" id="RightHand" name="hand">Right Hand</input>
+            <br>
+            <input type="radio" id="BothHand" name="hand">Both Hands</input>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <lable>Select which hand you use most:</lable>
+            <br>
+            <input type="checkbox" id="LeftHand" name="hand">Left Hand</input>
+            <br>
+            <input type="checkbox" id="RightHand" name="hand">Right Hand</input>
+            <br>
+            <input type="checkbox" id="BothHand" name="hand">Both Hands</input>
+        </fieldset>
+
+    </form>
+
+        <br>
+
+    <form>
+        <select id="cars" name="cars" size ="5" multiple>
+            <option value="audi">Audi</option>
+            <option value="bmw" selected>Bmw</option>
+            <option value="mercedes">Mercedes</option>
+          </select>
+        </form>
+
+        <br>
+
+        <form action="" method="post">
+            <h1> Sign Up </h1>
+            <fieldset>
+                <legend>Your Basic Info</legend>
+                <label>Name:</label>
+                <input type="text" id="name" name="user_name">
+                <br>
+                <label>Email:</label>
+                <input type="email" id="mail" name="user_email">
+                <br>
+                <label>Password:</label>
+                <input type="password" id="password" name="user_password">
+                <br>
+                <label>Gender:</label>
+                <br>
+                <input type="radio" id="male" value="male" name="gender"><label>Male</label><br>
+                <input type="radio" id="female" value="female" name="gender"><label>Female</label>
+            </fieldset>
+            <button type="submit">Sign Up</button>
+        </form>
+
+</body>
+
+</html>
