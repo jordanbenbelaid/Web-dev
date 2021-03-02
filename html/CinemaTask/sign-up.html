@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Web-dev/html/CinemaTask/format.css">
+    <title>QA Cinema</title>
+</head>
+
+<body>
+
+    <!--navbar-->
+    <nav class="navbar navbar-default" style="background-color: blue;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <img class="logo" src="/Web-dev/resources/logo.png" alt="QA Logo">
+                <a class="navbar-brand" href="/Web-dev/html/CinemaTask/home.html"><u>QA CINEMA</u></a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="navbar-item"><a class="navbar-color" href="/Web-dev/html/CinemaTask/home.html">Home</a></li>
+                <li class="navbar-item"><a class="navbar-color"
+                        href="/Web-dev/html/CinemaTask/schedule.html">Schedule</a></li>
+                <li class="navbar-item"><a class="navbar-color" href="/Web-dev/html/CinemaTask/sign-up.html">Sign up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--image carousel-->
+    <div id="carouselSlides" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/Web-dev/resources/movies1.jfif" class="d-block w-100" alt="Movie set 1">
+            </div>
+            <div class="carousel-item">
+                <img src="/Web-dev/resources/movies2.jfif" class="d-block w-100" alt="Movie set 2">
+            </div>
+            <div class="carousel-item">
+                <img src="/Web-dev/resources/movies3.jfif" class="d-block w-100" alt="Movie set 3">
+            </div>
+        </div>
+    </div>
+
+
+    <form action="Troll.html">
+        <legend>Enter your details to confirm confirmation:</legend>
+
+        <br>
+
+        <div class="row">
+            <div class="col-10">
+                <label for="title">Title *</label>
+                <select id=title name="title" class="form-control">
+                    <option value="Mr">Mr</option>
+                    <option value="Mrs">Mrs</option>
+                    <option value="Miss">Miss</option>
+                    <option value="Mister">Mister</option>
+                </select>
+            </div>
+        </div>
+
+            <br>
+            <div class="row">
+            <div class="col-10">
+                <label for="firstname">First Name *</label>
+                <input type="text" name="firstname" id="firstname" class="form-control" placeholder="Enter first name">
+            </div>
+        </div>
+            <br>
+            <div class="row">
+            <div class="col-10">
+                <label for="lastname">Last Name *</label>
+                <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Enter last name">
+            </div>
+            </div>
+        <br>
+        <div class="row">
+            <div class="col-3">
+                <label for="password">Date Of Birth</label>
+                <input type="date" name="dob" id="dob" class="form-control" placeholder="Select date of birth">
+            </div>
+        </div>
+            <br>
+            <div class="row">
+            <div class="col-10">
+                <label for="lastname">Phone Number</label>
+                <input type="number" name="pnumber" id="pnumber" class="form-control" placeholder="e.g 07834234213">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-3">
+                <label for="gender">Please select your gender</label>
+                <br>
+                <input type="radio" id="yes" name="yes">Yes</input>
+                <input type="radio" id="no" name="no">No</input>
+                </select>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <button type="submit" name="submitButton" value="SUBMIT">Submit</button>
+        </div>
+
+    </form>
+
+
+
+
+
+    <br><br>
+    <footer>
+        <p style="color: white;">Copyright QA Cinema 2021</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
